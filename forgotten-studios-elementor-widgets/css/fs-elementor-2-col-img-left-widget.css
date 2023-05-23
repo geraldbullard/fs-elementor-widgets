@@ -1,0 +1,23 @@
+/* 2 Column (50/50) Image Left, Text Right Widget Styling */
+
+.fs-two-column-widget .right-column.fs-text {
+    padding: 0 20px;
+}
+.fs-two-column-widget .left-column.fs-image {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: top;
+    background-image: url("/images/blob_group_1.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+@media screen and (max-width: 1024px) {
+    .fs-two-column-widget .left-column.fs-image img {
+        width: 100%;
+    }
+    .fs-two-column-widget .right-column.fs-text {
+        padding: 20px 0 0;
+    }
+}

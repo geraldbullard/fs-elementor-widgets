@@ -1,0 +1,18 @@
+/* Globally Used Styling */
+
+.fs-two-column-widget .left-column,
+.fs-two-column-widget .right-column {
+    width: 50%;
+    float: left;
+}
+
+@media screen and (max-width: 1024px) {
+    .fs-two-column-widget {
+        padding: 20px 20px 40px;
+    }
+    .fs-two-column-widget .left-column,
+    .fs-two-column-widget .right-column {
+        width: 100%;
+        float: none;
+    }
+}
