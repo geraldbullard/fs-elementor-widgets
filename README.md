@@ -1,2 +1,1 @@
-# fs-elementor-widgets
-Forgotten Studios Elementor Widgets Plugin
+# Forgotten Studios Elementor Widgets Plugin
